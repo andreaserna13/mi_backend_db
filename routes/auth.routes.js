@@ -1,14 +1,19 @@
+// routes/authRoutes.js
+
 const express = require('express');
 const router = express.Router();
+const { login, enviarCorreoRecuperacion } = require('../controllers/auth.controller');
 
-// Aquí puedes importar tu controlador (auth.controller.js) y usarlo
-
-router.post('/login', (req, res) => {
-  // Lógica de login aquí
-  res.json({ message: 'Ruta login funcionando' });
-});
+router.post('/login', login);
+router.post('/recuperar', enviarCorreoRecuperacion);
 
 module.exports = router;
+
+
+
+
+
+
 
 
 
