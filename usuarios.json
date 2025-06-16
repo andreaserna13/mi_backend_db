@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Andrea Serna Gil",
+    "clave": "123456simon",
+    "tipoUsuario": "admin"
+  },
+  {
+    "nombre": "Julian Zapata",
+    "clave": "julian.1009",
+    "tipoUsuario": "usuario"
+  },
+  {
+    "nombre": "Isabel Gil",
+    "clave": "dori.0526",
+    "tipoUsuario": "usuario"
+  },
+  {
+    "nombre": "Alexander Zapata Patiño",
+    "clave": "alex94_09",
+    "tipoUsuario": "usuario"
+  }
+]
