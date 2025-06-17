@@ -2,10 +2,7 @@
   "name": "mi-backend",
   "version": "1.0.0",
   "description": "Este es un backend básico para autenticación de usuarios, construido con Node.js, Express y MySQL.",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
@@ -28,3 +25,4 @@
     "nodemon": "^3.0.2"
   }
 }
+
